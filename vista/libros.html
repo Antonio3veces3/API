@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Libros</title>
+</head>
+<body class="p-3 mb-2 bg-dark text-white">  
+    <h1 class="border border-dark, text-center">LISTA DE LIBROS</h1>
+    <div id="grupo" class="p-3 mb-2 bg-dark text-white, mx-auto" style="width: 450px;">
+        <div class="form-group">
+            <label for="id" class="text-white">Id: </label>
+            <input type="text" id="id" >
+        </div>
+
+        <div class="form-group">
+            <label for="titulo", class="text-white">Titulo: </label>
+            <input type="text" id="titulo">
+        </div>
+
+        <div class="form-group">
+            <label for="autor" class="text-white">Autor: </label>
+            <input type="text" id="autor">
+        </div>
+
+        <div class="form-group">
+            <label for="genero" class="text-white">Genero: </label>
+            <input type="text" id="genero">
+        </div>
+
+        <div class="form-group">
+            <label for="year" class="text-white">Año: </label>
+            <input type="text" id="year">
+        </div>
+
+        <div class="form-group">
+            <label for="edicion" class="text-white">Edición: </label>
+            <input type="text" id="edicion">
+        </div>
+        <div class="form-group">
+            <button type="button" id="btnagregar"  class="btn btn-success">Agregar</button>
+            <button type="button" id="btnshow"  class="btn btn-info">Mostrar libros</button>
+            <button type="button" id="btnactualizar"  class="btn btn-warning">Actualizar</button>
+            <button type="button" id="btndelete"  class="btn btn-danger">Borrar</button>
+        </div>
+        <div id="resultados" class="form-group, text-white">
+
+        </div>
+    </div>
+    
+    
+    <script src="./app.js"></script>
+</body>
+</html>
